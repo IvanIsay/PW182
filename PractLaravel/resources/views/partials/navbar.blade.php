@@ -10,11 +10,11 @@
             <a class="nav-link {{ request()->routeIs('apodoInicio')?'text-danger fw-bold':''}}" aria-current="page" href="/">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ request()->routeIs('apodoFormulario')?'text-primary fw-bold':''}}" href="{{ route('apodoFormulario')}}">Formulario</a>
+            <a class="nav-link {{ request()->routeIs('recuerdo.create')?'text-primary fw-bold':''}}" href="{{ route('recuerdo.create')}}">Formulario</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link {{ request()->routeIs('apodoRecuerdos')?'text-warning fw-bold':''}} " href="{{ route('apodoRecuerdos')}}"> Recuerdos </a>
+            <a class="nav-link {{ request()->routeIs('recuerdo.index')?'text-warning fw-bold':''}} " href="{{ route('recuerdo.index')}}"> Recuerdos </a>
           </li>
 
           <li class="nav-item">
